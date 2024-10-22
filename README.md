@@ -152,6 +152,12 @@
 
 ### 
 
-A data structure to store the counts in would be good. An object would work (with the keys being different password lengths 1-20), or you could use an array, which is what I did. ```let lengths = new Array(20).fill(0)```. This creates an array with 20 locations, each initialised to 0.
+A data structure to store the counts in would be good. An object would work (with the keys being different password lengths (e.g. 1, 2, 3, 4, 5, 6, and so on.)). 
+
+```js
+const countLengths = { };
+```
+
+Or you you could use an array, ```const lengths = new Array(20).fill(0)```. This creates an array with 20 locations, each initialised to 0.
 
 
